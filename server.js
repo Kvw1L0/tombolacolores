@@ -4,11 +4,9 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Configuración de participantes y colores
-const TOTAL_PARTICIPANTS = 500;
+const TOTAL_PARTICIPANTS = 10;
 const COLORS = [
-  'rojo','azul','verde','amarillo','naranjo',
-  'morado','cafe','blanco','negro','rosado',
-  'cyan','fucsia'
+  'rojo','azul','verde'
 ];
 
 // Calcula cuotas equitativas
